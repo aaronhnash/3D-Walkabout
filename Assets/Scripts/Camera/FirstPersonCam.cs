@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections;
 
+// https://gamedev.stackexchange.com/questions/104693/how-to-use-input-getaxismouse-x-y-to-rotate-the-camera
+
 public class FirstPersonCam : MonoBehaviour {
 
     public float speedH = 2.0f;
@@ -9,6 +11,7 @@ public class FirstPersonCam : MonoBehaviour {
     private float yaw = 0.0f;
     private float pitch = 0.0f;
 
+    // https://www.youtube.com/watch?v=wnHVryNtuuc
     void Start() {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;

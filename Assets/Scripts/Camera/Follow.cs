@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections;
 
+// https://kylewbanks.com/blog/unity-make-camera-follow-player-smoothly-and-fluidly
+
 public class Follow : MonoBehaviour {
     
     public GameObject objectToFollow;

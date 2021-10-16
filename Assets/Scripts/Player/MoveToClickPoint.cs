@@ -1,4 +1,5 @@
 // MoveToClickPoint.cs
+// From the Unity Official documentation
 using UnityEngine;
 using UnityEngine.AI;
 
